@@ -1,48 +1,48 @@
-# Arethmetic operator (wiskunde)
+#Arethmetic operators
 
-# x = 5
-# y = 2
+a = 10
+b = 5
 
-# print(x + y) #optelling
-# print(x - y) #aftrekking
-# print(x * y) #verminigvuldigen
-# print(x / y) #Delen
-# print(x  // y) #Gehele Deling
+print(a + b) #addition
+print(a - b) #subtraction
+print(a * b) #multiplication
+print(a / b) #division
+print(a % b) #modulo (rest van deling)
+print(a ** b) #exponentiation (square root)
 
-# print( x ** y) #Macht
-# print(pow(x,y)) #Macht
+# ----------------------------- #
 
-# print( x % y) #modulo (rest van de deling)
+#Relational operators
 
-#Relational Operatiors
-#booleans
+a = 10
+b = 20
 
-# a = 10
-# b = 20
-# print(a == b) #Gelijkheid controleren -> False 
-# print( a != b) #Ongelijkheid controleren -> True
-# print( a < b) #kleiner dan -> True
-# print( a > b) #groter dan -> False
-# print( a + 20 >= b) #groter of gelijk aan -> True
-# print( a <= b) #Kleiner dan of gelijk aan -> True
+print(a == b)  # Gelijkheid controleren
+print(a != b)  # Ongelijkheid controleren
+print(a > b)   # Groter dan
+print(a < b)   # Kleiner dan
+print(a >= b)  # Groter dan of gelijk
+print(a <= b)  # Kleiner dan of gelijk
 
-#Logical operator
-# and, or, not
-x = False
+# ----------------------------- #
+#Logical operators
+#Boolean is een waarde die waar of onwaar kan zijn
+
+x = True
 y = False
+print(x and y)  # and = Beide waar
+print(x or y)   # or = Minstens één waar
+print(not x)    # Omkeren van de waarde (true wordt false, false wordt true)
 
-print(x and y) #beiden moeten gelijk zijn (True)
-print(x or y) #Minstens 1 moet waar zijn (False)
-print(not x) #omkeren (True)
+# ----------------------------- #
+#Assignment operators
 
-#Assignment Operator
 x = 5
-
-
-x += 5 # x = x + 5
-x -= 10
-x *= 4
-x /= 2
-
+x += 3  # x = x + 3
 print(x)
-
+x -= 2  # x = x - 2
+print(x)
+x *= 4  # x = x * 4
+print(x)
+x /= 2  # x = x / 2
+print(x)
