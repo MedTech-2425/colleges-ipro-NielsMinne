@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-# printen van een string
-print("Hello, MedTech!")
-
-# Wat bij een fout?
-print("Hello, MedTech!"
-# SyntaxError: '(' was never closed
-
-#input laat je iets invoeren in de terminal 
-print("Wat is je naam?")
-input()
-
-#input kan ook een string bevatten
-input("Wat is je naam? ")
-
-=======
 
 # PRINT
 # print()-functie van python
@@ -89,5 +73,4 @@ name = name.title()
 name = name.strip().title()
 
 print(f"Hello, {name}")
->>>>>>> 92b09b95b4350dc1a5bcc122ff2e0e6391ccaa84
 

@@ -1,0 +1,7 @@
+name = input("Wat is de naam van de patiënt? ").strip().title()
+age = input("Wat is de leeftijd van de patiënt? ")
+heartbeat = input("Wat is de hartslag in rust (bpm)? ")
+print("\nPatiëntendossier:")
+print(f"Naam: {name}")
+print(f"Leeftijd: {age} jaar")
+print(f"Hartslag: {heartbeat} bpm")
